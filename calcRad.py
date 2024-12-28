@@ -17,7 +17,7 @@ import sys
 # Simplified to calculate a single profile and avoid second derivatives
 
 stateType = 'ECMWF'
-NLEVELS = 101  # European models use 101 levels
+NLEVELS = 50
 
 rttov_installdir = '/home/xcalbet/RTTOV13/'
 
@@ -62,7 +62,7 @@ def proc_rttov():
 
     # Setting up MHS RTTOV
     mhsRttov = pyrttov.Rttov()
-    mhsRttov.FileCoef = f"{rttov_installdir}/rtcoef_rttov13/rttov13pred101L/rtcoef_metop_2_mhs.dat"
+    mhsRttov.FileCoef = f"{rttov_installdir}/rtcoef_rttov13/rttov13pred54L/rtcoef_metop_2_mhs.dat"
     mhsRttov.Options.AddInterp = True
     mhsRttov.Options.StoreTrans = True
     mhsRttov.Options.VerboseWrapper = True
