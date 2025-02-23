@@ -1,5 +1,7 @@
 # ReadMe
 
+## Folder **rttov**:
+Includes the scripts necessary to parse the input data, execute RTTOV, collect the outputs and create a CSV dataset file.
 The Python scripts can be placed inside the directory RTTOV/wrapper. Each of them has its purpose:
 - **pyrttov_tfm.py** --> This is the main script to launch the execution of RTTOV. In the code it is possible to specify the routes to the input files:
   * mhs_data_path: for NC files
@@ -11,6 +13,11 @@ The Python scripts can be placed inside the directory RTTOV/wrapper. Each of the
 - **create_dataset.py** --> This script is used to create the output CSV file after the computation of the results by RTTOV.
 
 The script **prepare_env.sh** can be used as help to activate the conda enviroment and update the PYTHONPATH.
+
+## Folder **nn_models**:
+Includes the Notebooks that implement Neural Network models trained using the dataset:
+**rrnn_automatic_hyperparams.ipynb** --> This model can choose hyperparameters automatically using Keras Tuner.
+**rrnn_classic_manual.ipynb** --> This model is created selecting manually the hyperparameters.
 
 
 
