@@ -16,8 +16,8 @@ The script **prepare_env.sh** can be used as help to activate the conda envirome
 
 ## Folder **rrnn**:
 Includes the Notebooks that implement Neural Network models trained using the dataset:
-- **rrnn_automatic_hyperparams.ipynb** --> This model can choose hyperparameters automatically using Keras Tuner.
-- **rrnn_classic_manual.ipynb** --> This model is created selecting manually the hyperparameters.
+- **rrnn_classic_autoParams.ipynb** --> This model can choose hyperparameters automatically using Keras Tuner.
+- **rrnn_classic.ipynb** --> This model is created selecting manually the hyperparameters.
 
 
 
