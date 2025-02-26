@@ -18,6 +18,7 @@ The script **prepare_env.sh** can be used as help to activate the conda envirome
 Includes the Notebooks that implement Neural Network models trained using the dataset:
 - **rrnn_classic_autoParams.ipynb** --> This model can choose hyperparameters automatically using Keras Tuner.
 - **rrnn_classic.ipynb** --> This model is created selecting manually the hyperparameters.
+- **DeepONet.ipynb** --> This model is created using DeepONet strategy.
 
 
 
